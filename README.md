@@ -1,22 +1,22 @@
-# ConfiguracionGit
+## ConfiguracionGit
 Configuracion de Git.
-### implementar en git 
-#### con el comando 
+#### implementar en git 
+Debemos usar el siguiente comando 
 ```bash
 git config --global -e
 ```
 ---
 
-# GNU nano 7.2                              /home/kan/.gitconfig      
+GNU nano 7.2                              /home/kan/.gitconfig      
   
-# Este es el archivo de configuración de Git por usuario.
+##### Este es el archivo de configuración de Git por usuario.
 [user]
         email = kan@gmail.com
         name = kan
 
-# Por favor, adapta y descomenta las siguientes líneas:
-#       name = Kan
-#       email = kan@gmail.com
+Por favor, adapta y descomenta las siguientes líneas:
+       name = Kan       
+       email = kan@gmail.com
 [init]
         defaultBranch = main
 [color]
@@ -27,6 +27,5 @@ git config --global -e
         lg = log --decorate --all --oneline --graph --abbrev-commit
         l  = log --graph --abbrev-commit   --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(b>
         a  = add .
-#       l  = log --graph --abbrev-commit --  --decorate --format=format:'%C(bold blue)%h%C(reset) - %C>
 [core]
         pager =
